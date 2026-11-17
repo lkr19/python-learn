@@ -1,0 +1,9 @@
+scores = [92,45,78,88,60,34,100,77,85,59,91,73]
+a = scores[0]
+b = 1
+while b < len(scores):
+    c =scores[b]
+    if a<c:
+        a=c
+    b=b+1
+print(a)
